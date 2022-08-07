@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +9,10 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
     </style>
-        
-    <link rel="stylesheet" href="./public/css/styles.css">
+
+    <link rel="stylesheet" href="./public/css/registo.css">
 </head>
+
 <body>
     <header>
         <img src="./public/img/logo-color.png" alt="Shoes">
@@ -25,20 +27,59 @@
 
     <main class="container">
         <section>
-            lalalaluuuu!
+            <h2> Faça parte do nosso time</h2>
+            <form action="" method="get">
+                <label for="nome">
+                    <span>Nome</span>
+                    <input type="text" name="nomeDoCandidato" placeholder="Digite seu nome aqui">
+                </label>
+                <label>
+                    <span>E-mail</span>
+                    <input type="email" name="email" placeholder="Digite seu email">
+                </label>
+
+                <input type="hidden" name="visitouPagina" value="1">
+
+                <label>
+                    <span>Telefone</span>
+                    <input type="tel" name="Telefone" id="telefone">
+                </label>
+
+                <label>
+                    <span>Departamento</span>
+                    <select name="departamento" id="departamento">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+
+                </label>
+
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+
         </section>
-        
+
         <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt, eos inventore minus unde voluptas impedit sint eaque consequuntur. Tempore, aliquam atque? Nihil harum cumque deleniti. Suscipit explicabo maxime tenetur.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt, eos inventore minus unde voluptas impedit sint eaque consequuntur. Tempore, aliquam atque? Nihil harum cumque deleniti. Suscipit explicabo maxime tenetur.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt, eos inventore minus unde voluptas impedit sint eaque consequuntur. Tempore, aliquam atque? Nihil harum cumque deleniti. Suscipit explicabo maxime tenetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt, eos inventore minus unde
+                voluptas impedit sint eaque consequuntur. Tempore, aliquam atque? Nihil harum cumque deleniti. Suscipit
+                explicabo maxime tenetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt, eos inventore minus unde
+                voluptas impedit sint eaque consequuntur. Tempore, aliquam atque? Nihil harum cumque deleniti. Suscipit
+                explicabo maxime tenetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt, eos inventore minus unde
+                voluptas impedit sint eaque consequuntur. Tempore, aliquam atque? Nihil harum cumque deleniti. Suscipit
+                explicabo maxime tenetur.</p>
         </section>
     </main>
 
     <footer>
         <section id="Contatos">
             <img src="./public/img/logo-white.png" alt="Shoes">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae, aspernatur porro sapiente quasi numquam distinctio libero corporis</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae, aspernatur porro sapiente
+                quasi numquam distinctio libero corporis</p>
         </section>
         <section id="Links">
             <article class="categorias">
@@ -62,4 +103,5 @@
         </section>
     </footer>
 </body>
+
 </html>
